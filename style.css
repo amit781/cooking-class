@@ -1,0 +1,42 @@
+body,
+html { 
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(cake.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+
+h1{
+    font-size: 3rem ;
+    color: #dfddde;
+    border-color: black;
+    margin-left: 230px;
+    text-shadow: 2px 2px #211614;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-outline-primary {
+  border-color: black;
+  color: black;
+}
+
+.btn-outline-primary:hover {
+  background-color: #814d42;
+  color: black;
+  border-color: black
+}   
+
+.buffer{
+    height: 280px;
+}
